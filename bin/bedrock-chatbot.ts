@@ -4,7 +4,7 @@ import * as cdk from 'aws-cdk-lib';
 import { BedrockChatbotStack } from '../lib/bedrock-chatbot-stack';
 
 const app = new cdk.App();
-new BedrockChatbotStack(app, 'BedrockChatbotStack', {
+new BedrockChatbotStack(app, 'FastAPIChatbotStack', {
   // モデルIDをオプションで指定可能
   modelId: 'us.amazon.nova-lite-v1:0',
   //modelId: 'us.amazon.nova-micro-v1:0',
